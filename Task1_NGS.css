@@ -67,15 +67,10 @@ body {
 .wrapper {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  /* exactly 2 columns */
   grid-template-rows: repeat(2, auto);
-  /* exactly 2 rows */
   gap: 2rem;
-  /* spacing between cards */
   justify-items: center;
-  /* center each card horizontally */
   align-items: stretch;
-  /* cards align in height */
   max-width: 1200px;
   margin: 0 auto;
   padding: 2rem;
@@ -295,3 +290,4 @@ body {
 
 ::-webkit-scrollbar-thumb:hover {
   background: #f5f0bf; }
+
